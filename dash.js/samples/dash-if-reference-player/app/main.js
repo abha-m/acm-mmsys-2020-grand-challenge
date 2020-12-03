@@ -51,11 +51,23 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
         }
 
         // DASH Industry Forum Test Vectors
-        dashifTestVectors.query(function(data) {
+        dashifTestVectors.query(function (data) {
             $scope.availableStreams.splice(7, 0, {
                 name: 'DASH Industry Forum Test Vectors',
                 submenu: data.items
             });
+        });
+
+        // Add provider to beginning of each Vector
+        var provider = data.provider;
+        $scope.availableStreams.forEach(function (item) {
+            if (item && item.submenu && item.submenu.length > 0) {
+                item.submenu.forEach(function (subitem) {
+                    if (subitem && subitem.name && subitem.provider && provider[subitem.provider] && provider[subitem.provider].acronym) {
+                        subitem.name = '[' + provider[subitem.provider].acronym + '] ' + subitem.name;
+                    }
+                });
+            }
         });
     });
 
@@ -122,27 +134,27 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
     $scope.chartData = [];
 
     $scope.chartState = {
-        audio:{
-            buffer:         {data: [], selected: false, color: '#65080c', label: 'Audio Buffer Level'},
-            bitrate:        {data: [], selected: false, color: '#00CCBE', label: 'Audio Bitrate (kbps)'},
-            index:          {data: [], selected: false, color: '#ffd446', label: 'Audio Current Index'},
-            pendingIndex:   {data: [], selected: false, color: '#FF6700', label: 'AudioPending Index'},
-            ratio:          {data: [], selected: false, color: '#329d61', label: 'Audio Ratio'},
-            download:       {data: [], selected: false, color: '#44c248', label: 'Audio Download Rate (Mbps)'},
-            latency:        {data: [], selected: false, color: '#326e88', label: 'Audio Latency (ms)'},
-            droppedFPS:     {data: [], selected: false, color: '#004E64', label: 'Audio Dropped FPS'},
-            liveLatency:     {data: [], selected: false, color: '#65080c', label: 'Live Latency'}
+        audio: {
+            buffer: {data: [], selected: false, color: '#65080c', label: 'Audio Buffer Level'},
+            bitrate: {data: [], selected: false, color: '#00CCBE', label: 'Audio Bitrate (kbps)'},
+            index: {data: [], selected: false, color: '#ffd446', label: 'Audio Current Index'},
+            pendingIndex: {data: [], selected: false, color: '#FF6700', label: 'AudioPending Index'},
+            ratio: {data: [], selected: false, color: '#329d61', label: 'Audio Ratio'},
+            download: {data: [], selected: false, color: '#44c248', label: 'Audio Download Rate (Mbps)'},
+            latency: {data: [], selected: false, color: '#326e88', label: 'Audio Latency (ms)'},
+            droppedFPS: {data: [], selected: false, color: '#004E64', label: 'Audio Dropped FPS'},
+            liveLatency: {data: [], selected: false, color: '#65080c', label: 'Live Latency'}
         },
-        video:{
-            buffer:         {data: [], selected: true, color: '#00589d', label: 'Video Buffer Level'},
-            bitrate:        {data: [], selected: true, color: '#ff7900', label: 'Video Bitrate (kbps)'},
-            index:          {data: [], selected: false, color: '#326e88', label: 'Video Current Quality'},
-            pendingIndex:   {data: [], selected: false, color: '#44c248', label: 'Video Pending Index'},
-            ratio:          {data: [], selected: false, color: '#00CCBE', label: 'Video Ratio'},
-            download:       {data: [], selected: false, color: '#FF6700', label: 'Video Download Rate (Mbps)'},
-            latency:        {data: [], selected: false, color: '#329d61', label: 'Video Latency (ms)'},
-            droppedFPS:     {data: [], selected: false, color: '#65080c', label: 'Video Dropped FPS'},
-            liveLatency:     {data: [], selected: false, color: '#65080c', label: 'Live Latency'}
+        video: {
+            buffer: {data: [], selected: true, color: '#00589d', label: 'Video Buffer Level'},
+            bitrate: {data: [], selected: true, color: '#ff7900', label: 'Video Bitrate (kbps)'},
+            index: {data: [], selected: false, color: '#326e88', label: 'Video Current Quality'},
+            pendingIndex: {data: [], selected: false, color: '#44c248', label: 'Video Pending Index'},
+            ratio: {data: [], selected: false, color: '#00CCBE', label: 'Video Ratio'},
+            download: {data: [], selected: false, color: '#FF6700', label: 'Video Download Rate (Mbps)'},
+            latency: {data: [], selected: false, color: '#329d61', label: 'Video Latency (ms)'},
+            droppedFPS: {data: [], selected: false, color: '#65080c', label: 'Video Dropped FPS'},
+            liveLatency: {data: [], selected: false, color: '#65080c', label: 'Live Latency'}
         }
     };
 
@@ -201,6 +213,7 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
 
     // Starting Options
     $scope.autoPlaySelected = true;
+    $scope.cmcdEnabled = false;
     $scope.loopSelected = true;
     $scope.scheduleWhilePausedSelected = true;
     $scope.localStorageSelected = true;
@@ -234,11 +247,12 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
     //
     ////////////////////////////////////////
     let reqConfig = new XMLHttpRequest();
-    reqConfig.onload = function() {
+    reqConfig.onload = function () {
         if (reqConfig.status === 200) {
             let config = JSON.parse(reqConfig.responseText);
             if ($scope.player) {
                 $scope.player.updateSettings(config);
+                setLatencyAttributes();
             }
         } else {
             // Set default initial configuration
@@ -255,8 +269,9 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
                         }
                     }
                 }
-            }
+            };
             $scope.player.updateSettings(initialConfig);
+            setLatencyAttributes();
         }
     };
 
@@ -315,25 +330,19 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
         $scope.player.attachTTMLRenderingDiv($('#video-caption')[0]);
     }
 
-    // get buffer default value
     var currentConfig = $scope.player.getSettings();
-    $scope.defaultLiveDelay = currentConfig.streaming.liveDelay;
-    $scope.defaultStableBufferDelay = currentConfig.streaming.stableBufferTime;
-    $scope.defaultBufferTimeAtTopQuality = currentConfig.streaming.bufferTimeAtTopQuality;
-    $scope.defaultBufferTimeAtTopQualityLongForm = currentConfig.streaming.bufferTimeAtTopQualityLongForm;
-    $scope.lowLatencyModeSelected = currentConfig.streaming.lowLatencyEnabled;
 
-    var initVideoTrackSwitchMode = $scope.player.getTrackSwitchModeFor('video');
-    var initAudioTrackSwitchMode = $scope.player.getTrackSwitchModeFor('audio');
+    var initVideoTrackSwitchMode = currentConfig.streaming.trackSwitchMode.video;
+    var initAudioTrackSwitchMode = currentConfig.streaming.trackSwitchMode.audio;
 
     //get default track switch mode
-    if(initVideoTrackSwitchMode === 'alwaysReplace') {
+    if (initVideoTrackSwitchMode === 'alwaysReplace') {
         document.getElementById('always-replace-video').checked = true;
     } else {
         document.getElementById('never-replace-video').checked = true;
     }
 
-    if(initAudioTrackSwitchMode === 'alwaysReplace') {
+    if (initAudioTrackSwitchMode === 'alwaysReplace') {
         document.getElementById('always-replace-audio').checked = true;
     } else {
         document.getElementById('never-replace-audio').checked = true;
@@ -507,6 +516,16 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
         $scope.optionsGutter = bool;
     };
 
+    $scope.toggleCmcdEnabled = function () {
+        $scope.player.updateSettings({
+            'streaming': {
+                'cmcd': {
+                    'enabled': $scope.cmcdEnabled
+                }
+            }
+        });
+    };
+
     $scope.selectVideoQuality = function (quality) {
         $scope.player.setQualityFor('video', quality);
     };
@@ -543,7 +562,9 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
                 'stableBufferTime': $scope.defaultStableBufferDelay,
                 'bufferTimeAtTopQuality': $scope.defaultBufferTimeAtTopQuality,
                 'bufferTimeAtTopQualityLongForm': $scope.defaultBufferTimeAtTopQualityLongForm,
-                'lowLatencyEnabled': $scope.lowLatencyModeSelected
+                'lowLatencyEnabled': $scope.lowLatencyModeSelected,
+                abr: {},
+                cmcd: {}
             }
         };
 
@@ -573,30 +594,22 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
 
         const initBitrate = parseInt($scope.initialVideoBitrate);
         if (!isNaN(initBitrate)) {
-            config.streaming.abr = {
-                'initialBitrate': {
-                    'video': initBitrate
-                }
-            }
+            config.streaming.abr.initialBitrate = {'video': initBitrate};
         }
 
         const minBitrate = parseInt($scope.minVideoBitrate);
         if (!isNaN(minBitrate)) {
-            config.streaming.abr = {
-                'minBitrate': {
-                    'video': minBitrate
-                }
-            }
+            config.streaming.abr.minBitrate = {'video': minBitrate};
         }
 
         const maxBitrate = parseInt($scope.maxVideoBitrate);
         if (!isNaN(maxBitrate)) {
-            config.streaming.abr = {
-                'maxBitrate': {
-                    'video': maxBitrate
-                }
-            }
-        }        
+            config.streaming.abr.maxBitrate = {'video': maxBitrate};
+        }
+
+        config.streaming.cmcd.sid = $scope.cmcdSessionId ? $scope.cmcdSessionId : null;
+        config.streaming.cmcd.cid = $scope.cmcdContentId ? $scope.cmcdContentId : null;
+
         $scope.player.updateSettings(config);
 
         $scope.controlbar.reset();
@@ -613,7 +626,16 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
             });
         }
         if ($scope.initialSettings.text) {
-            $scope.player.setTextDefaultLanguage($scope.initialSettings.text);
+            if ($scope.initialSettings.textRole) {
+                $scope.player.setInitialMediaSettingsFor('fragmentedText', {
+                    role: $scope.initialSettings.textRole,
+                    lang: $scope.initialSettings.text
+                });
+            } else {
+                $scope.player.setInitialMediaSettingsFor('fragmentedText', {
+                    lang: $scope.initialSettings.text
+                });
+            }
         }
         $scope.player.setTextDefaultEnabled($scope.initialSettings.textEnabled);
         $scope.player.enableForcedTextStreaming($scope.initialSettings.forceTextStreaming);
@@ -627,34 +649,36 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
     };
 
     $scope.changeTrackSwitchMode = function (mode, type) {
-        $scope.player.setTrackSwitchModeFor(type, mode);
+        var switchMode = {};
+        switchMode[type] = mode;
+        $scope.player.updateSettings({'streaming': {'trackSwitchMode' : switchMode}});
     };
 
     $scope.setLogLevel = function () {
         var level = $("input[name='log-level']:checked").val();
-        switch(level) {
+        switch (level) {
             case 'none':
-            $scope.player.updateSettings({ 'debug': { 'logLevel': dashjs.Debug.LOG_LEVEL_NONE }});
-            break;
+                $scope.player.updateSettings({'debug': {'logLevel': dashjs.Debug.LOG_LEVEL_NONE}});
+                break;
 
             case 'fatal':
-            $scope.player.updateSettings({ 'debug': { 'logLevel': dashjs.Debug.LOG_LEVEL_FATAL }});
-            break;
+                $scope.player.updateSettings({'debug': {'logLevel': dashjs.Debug.LOG_LEVEL_FATAL}});
+                break;
 
             case 'error':
-            $scope.player.updateSettings({ 'debug': { 'logLevel': dashjs.Debug.LOG_LEVEL_ERROR }});
-            break;
+                $scope.player.updateSettings({'debug': {'logLevel': dashjs.Debug.LOG_LEVEL_ERROR}});
+                break;
 
             case 'warning':
-            $scope.player.updateSettings({ 'debug': { 'logLevel': dashjs.Debug.LOG_LEVEL_WARNING }});
-            break;
+                $scope.player.updateSettings({'debug': {'logLevel': dashjs.Debug.LOG_LEVEL_WARNING}});
+                break;
 
             case 'info':
-            $scope.player.updateSettings({ 'debug': { 'logLevel': dashjs.Debug.LOG_LEVEL_INFO }});
-            break;
+                $scope.player.updateSettings({'debug': {'logLevel': dashjs.Debug.LOG_LEVEL_INFO}});
+                break;
 
             default:
-            $scope.player.updateSettings({ 'debug': { 'logLevel': dashjs.Debug.LOG_LEVEL_DEBUG }});
+                $scope.player.updateSettings({'debug': {'logLevel': dashjs.Debug.LOG_LEVEL_DEBUG}});
         }
     };
 
@@ -832,7 +856,8 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
         var dashAdapter = $scope.player.getDashAdapter();
 
         if (dashMetrics && $scope.streamInfo) {
-            var periodIdx = $scope.streamInfo.index;
+            var period = dashAdapter.getPeriodById($scope.streamInfo.id);
+            var periodIdx = period ? period.index : $scope.streamInfo.index;
 
             var maxIndex = dashAdapter.getMaxIndexForBufferType(type, periodIdx);
             var repSwitch = dashMetrics.getCurrentRepresentationSwitch(type, true);
@@ -919,6 +944,16 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
         }
     }
 
+    function setLatencyAttributes() {
+        // get buffer default value
+        var currentConfig = $scope.player.getSettings();
+        $scope.defaultLiveDelay = currentConfig.streaming.liveDelay;
+        $scope.defaultStableBufferDelay = currentConfig.streaming.stableBufferTime;
+        $scope.defaultBufferTimeAtTopQuality = currentConfig.streaming.bufferTimeAtTopQuality;
+        $scope.defaultBufferTimeAtTopQualityLongForm = currentConfig.streaming.bufferTimeAtTopQualityLongForm;
+        $scope.lowLatencyModeSelected = currentConfig.streaming.lowLatencyEnabled;
+    }
+
 
     (function init() {
         $scope.initChartingByMediaType('video');
@@ -950,7 +985,8 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
         if (vars && vars.hasOwnProperty('stream')) {
             try {
                 item = JSON.parse(atob(vars.stream));
-            } catch (e) {}
+            } catch (e) {
+            }
         }
 
 

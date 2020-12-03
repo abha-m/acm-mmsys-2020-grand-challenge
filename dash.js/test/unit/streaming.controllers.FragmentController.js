@@ -16,6 +16,7 @@ describe('FragmentController', function () {
     const mediaPlayerModelMock = new MediaPlayerModelMock();
     const settings = Settings(context).getInstance();
     const fragmentController = FragmentController(context).create({
+        streamInfo: { id: 'streamId' },
         mediaPlayerModel: mediaPlayerModelMock,
         settings: settings
     });
@@ -45,7 +46,15 @@ describe('FragmentController', function () {
         };
 
         eventBus.on(Events.INIT_FRAGMENT_LOADED, onInitFragmentLoaded, this);
-        eventBus.trigger(Events.FRAGMENT_LOADING_COMPLETED, {response: {}, request: {mediaType: 'video', isInitializationRequest() { return true; }, type: 'InitializationSegment', mediaInfo: {streamInfo: {}}}, sender: videoFragmentModel});
+        eventBus.trigger(Events.FRAGMENT_LOADING_COMPLETED, {
+            response: {},
+            request: {
+                mediaType: 'video',
+                isInitializationRequest() { return true; },
+                type: 'InitializationSegment',
+                mediaInfo: {streamInfo: {}}
+            },
+            sender: videoFragmentModel});
     });
 
     it('should trigger SERVICE_LOCATION_BLACKLIST_ADD event when an init segment download is completed with an error.', function (done) {

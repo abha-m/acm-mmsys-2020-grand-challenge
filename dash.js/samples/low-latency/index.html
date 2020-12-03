@@ -24,7 +24,9 @@
             player.updateSettings({
             'streaming': {
                 'abr': {
-                    'useDefaultABRRules': true
+                    'useDefaultABRRules': true,
+                    'ABRStrategy': 'abrThroughput'
+
                 }
             }
         });
@@ -167,6 +169,7 @@
             }
         }
 
+        
         setInterval(function() {
                 var dashMetrics = player.getDashMetrics();
                 var settings = player.getSettings();
@@ -195,6 +198,7 @@
                 }
                 document.querySelector('#quality-tag').innerText = `${quality.width}x${quality.height}, ${quality.bitrate / 1000}Kbps`;
             });
+        
 
         window.startRecording = () => {
             console.info('Begin recording');
@@ -207,6 +211,8 @@
                 averageLatency: 0,
                 averageBufferLength: 0,
             };
+            var curr = {};
+            var histories = window.abrTrace = [];
 
             // Record the initial quality
             recordSwitch(player.getBitrateInfoListFor('video')[player.getQualityFor('video')]);
@@ -218,18 +224,32 @@
                 const lastQuality = history.switchHistory[history.switchHistory.length - 1];
                 if (lastQuality.end === null) {
                     lastQuality.end = video.currentTime;
-                }
-                console.warn('Run ended. Please navigate back to node for results.');
+                }                
+                console.warn('Run ended. Please navigate back to node for results. COPY THE BELOW VARIABLES!!!');
+                console.log(histories);
+                console.log(history.switchHistory);
             }
 
             pollInterval = setInterval(function() {
+                curr = {
+                    currentLatency: 0,
+                    currentBuffer: 0,
+                    currentAverageThroughput: 0,
+                    currentStallDuration: 0,
+                    currentQuality: null
+                }
                 const currentLatency = parseFloat(player.getCurrentLiveLatency(), 10);
                 const currentBuffer = player.getDashMetrics().getCurrentBufferLevel("video");
+                const currentAverageThroughput = player.getAverageThroughput("video");
+                curr.currentLatency = currentLatency;
+                curr.currentBuffer = currentBuffer;
+                curr.currentAverageThroughput = currentAverageThroughput;
+                histories.push(curr);
+
                 history.averageLatency = latencyCMA.average(currentLatency);
                 history.averageBufferLength = bufferCMA.average(currentBuffer);
                 console.log(history);
             }, 200);
-
 
             player.on(dashjs.MediaPlayer.events.QUALITY_CHANGE_RENDERED, (e) => {
                 recordSwitch(player.getBitrateInfoListFor('video')[e.newQuality]);
@@ -254,11 +274,24 @@
                     prev.end = videoNow;
                 }
                 switchHistory.push({ start: videoNow, end: null, quality });
+                if(histories.length > 0) {
+                    var c = histories.pop();
+                    c.currentQuality = quality;
+                    histories.push(c);
+                }
+                else { console.log(curr); }
+                console.log(histories);
             }
 
             function checkStallResolution() {
                 if (stallingAt !== null) {
                     history.stallDuration += (performance.now() - stallingAt);
+                    // console.log(player.getPlaybackRate());
+                    if(histories.length > 0) {
+                        var c = histories.pop();
+                        c.currentStallDuration = performance.now() - stallingAt;
+                        histories.push(c);
+                    }
                     stallingAt = null;
                 }
             }
@@ -268,5 +301,3 @@
 <script src="../highlighter.js"></script>
 </body>
 </html>
-
-

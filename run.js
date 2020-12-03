@@ -18,12 +18,28 @@ const NETWORK_PROFILE = patterns[configNetworkProfile] || patterns.PROFILE_CASCA
 console.log("Network profile:", NETWORK_PROFILE);
 
 run()
-  .then((result) => {
+  .then((allResult) => {
     console.log("Test finished. Press cmd+c to exit.");
     if (!fs.existsSync('./results')){
       fs.mkdirSync('./results');
     }
-    fs.writeFileSync(`./results/run-${NETWORK_PROFILE}-${new Date().toISOString().split(' ').join('-')}.json`, JSON.stringify(result));
+    if (!fs.existsSync('./results/trace')){
+        fs.mkdirSync('./results/trace');
+    }
+    if (!fs.existsSync('./results/switchHistory')){
+        fs.mkdirSync('./results/switchHistory');
+    }
+
+
+    fs.writeFileSync(`./results/run-${process.env.npm_package_config_network_profile}-${new Date().toISOString().split(' ').join('-')}.json`, JSON.stringify(allResult.result));
+    fs.writeFileSync(`./results/trace/trace-${process.env.npm_package_config_network_profile}-${new Date().toISOString().split(' ').join('-')}.json`, JSON.stringify(allResult.trace));
+    fs.writeFileSync(`./results/switchHistory/switchHistory-${process.env.npm_package_config_network_profile}-${new Date().toISOString().split(' ').join('-')}.json`, JSON.stringify(allResult.switchHistory));
+    // fs.open(`./results/trace/trace-${process.env.npm_package_config_network_profile}-${new Date().toISOString().split(' ').join('-')}.json`, 'w', function (err, file) {
+    //     if (err) throw err;
+    // });
+    // fs.open(`./results/switchHistory/switchHistory-${process.env.npm_package_config_network_profile}-${new Date().toISOString().split(' ').join('-')}.json`, 'w', function (err, file) {
+    //     if (err) throw err;
+    // });
   })
   .catch(error => console.log(error));
 
@@ -77,19 +93,30 @@ async function run() {
       window.stopRecording();
     }
     player.pause();
-    return window.abrHistory;
+    const allMetrics = {
+        abrHistory: window.abrHistory,
+        abrTrace: window.abrTrace
+    }
+    // return window.abrHistory;
+    return allMetrics;
   });
   console.log("Run complete");
   if (!metrics) {
     console.log("No metrics were returned. Stats will not be logged.");
   }
-  console.log(metrics);
-  ({ switchHistory, ...result } = metrics);
+//   console.log(metrics);
+  ({ switchHistory, ...result } = metrics.abrHistory);
   result.averageBitrate = stats.computeAverageBitrate(switchHistory);
   result.numSwitches = switchHistory.length;
 
   console.log(result);
-  return result;
+  const allResult = {
+      result: result,
+      switchHistory: switchHistory,
+      trace: metrics.abrTrace
+  }
+  return allResult;
+//   return result;
 }
 
 async function awaitStabilization (page) {

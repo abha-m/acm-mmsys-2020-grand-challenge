@@ -1,0 +1,86 @@
+[
+    {
+      "start": 10.782932,
+      "end": 38.693967,
+      "quality": {
+        "mediaType": "video",
+        "bitrate": 1000000,
+        "width": 1280,
+        "height": 720,
+        "scanType": null,
+        "qualityIndex": 2
+      }
+    },
+    {
+      "start": 38.693967,
+      "end": 39.014263,
+      "quality": {
+        "mediaType": "video",
+        "bitrate": 600000,
+        "width": 852,
+        "height": 480,
+        "scanType": null,
+        "qualityIndex": 1
+      }
+    },
+    {
+      "start": 39.014263,
+      "end": 134.706395,
+      "quality": {
+        "mediaType": "video",
+        "bitrate": 200000,
+        "width": 640,
+        "height": 360,
+        "scanType": null,
+        "qualityIndex": 0
+      }
+    },
+    {
+      "start": 134.706395,
+      "end": 135.206113,
+      "quality": {
+        "mediaType": "video",
+        "bitrate": 600000,
+        "width": 852,
+        "height": 480,
+        "scanType": null,
+        "qualityIndex": 1
+      }
+    },
+    {
+      "start": 135.206113,
+      "end": 145.203537,
+      "quality": {
+        "mediaType": "video",
+        "bitrate": 200000,
+        "width": 640,
+        "height": 360,
+        "scanType": null,
+        "qualityIndex": 0
+      }
+    },
+    {
+      "start": 145.203537,
+      "end": 145.703034,
+      "quality": {
+        "mediaType": "video",
+        "bitrate": 600000,
+        "width": 852,
+        "height": 480,
+        "scanType": null,
+        "qualityIndex": 1
+      }
+    },
+    {
+      "start": 145.703034,
+      "end": 160.719107,
+      "quality": {
+        "mediaType": "video",
+        "bitrate": 200000,
+        "width": 640,
+        "height": 360,
+        "scanType": null,
+        "qualityIndex": 0
+      }
+    }
+  ]

@@ -79,7 +79,8 @@ function MssParser(config) {
     };
 
     let instance,
-        logger;
+        logger,
+        initialBufferSettings;
 
 
     function setup() {
@@ -117,10 +118,15 @@ function MssParser(config) {
             segments,
             i;
 
-        adaptationSet.id = streamIndex.getAttribute('Name') ? streamIndex.getAttribute('Name') : streamIndex.getAttribute('Type');
-        adaptationSet.contentType = streamIndex.getAttribute('Type');
-        adaptationSet.lang = streamIndex.getAttribute('Language') || 'und';
-        adaptationSet.mimeType = mimeTypeMap[adaptationSet.contentType];
+        const name = streamIndex.getAttribute('Name');
+        const type = streamIndex.getAttribute('Type');
+        const lang = streamIndex.getAttribute('Language');
+        const fallBackId = lang ? type + '_' + lang : type;
+
+        adaptationSet.id = name || fallBackId;
+        adaptationSet.contentType = type;
+        adaptationSet.lang = lang || 'und';
+        adaptationSet.mimeType = mimeTypeMap[type];
         adaptationSet.subType = streamIndex.getAttribute('Subtype');
         adaptationSet.maxWidth = streamIndex.getAttribute('MaxWidth');
         adaptationSet.maxHeight = streamIndex.getAttribute('MaxHeight');
@@ -205,9 +211,9 @@ function MssParser(config) {
         // If still not defined (optionnal for audio stream, see https://msdn.microsoft.com/en-us/library/ff728116%28v=vs.95%29.aspx),
         // then we consider the stream is an audio AAC stream
         if (fourCCValue === null || fourCCValue === '') {
-            if (type === 'audio') {
+            if (type === constants.AUDIO) {
                 fourCCValue = 'AAC';
-            } else if (type === 'video') {
+            } else if (type === constants.VIDEO) {
                 logger.debug('FourCC is not defined whereas it is required for a QualityLevel element for a StreamIndex of type "video"');
                 return null;
             }
@@ -682,8 +688,8 @@ function MssParser(config) {
             if (adaptations[i].contentType === 'video') {
                 // Get video segment duration
                 segmentDuration = adaptations[i].SegmentTemplate.SegmentTimeline.S_asArray[0].d / adaptations[i].SegmentTemplate.timescale;
-                // Set minBufferTime
-                manifest.minBufferTime = segmentDuration * 2;
+                // Set minBufferTime to one segment duration
+                manifest.minBufferTime = segmentDuration;
 
                 if (manifest.type === 'dynamic' ) {
                     // Set availabilityStartTime
@@ -710,12 +716,24 @@ function MssParser(config) {
         if (manifest.type === 'dynamic') {
             let targetLiveDelay = mediaPlayerModel.getLiveDelay();
             if (!targetLiveDelay) {
-                targetLiveDelay = segmentDuration * settings.get().streaming.liveDelayFragmentCount;
+                const liveDelayFragmentCount = settings.get().streaming.liveDelayFragmentCount !== null && !isNaN(settings.get().streaming.liveDelayFragmentCount) ? settings.get().streaming.liveDelayFragmentCount : 4;
+                targetLiveDelay = segmentDuration * liveDelayFragmentCount;
             }
             let targetDelayCapping = Math.max(manifest.timeShiftBufferDepth - 10/*END_OF_PLAYLIST_PADDING*/, manifest.timeShiftBufferDepth / 2);
             let liveDelay = Math.min(targetDelayCapping, targetLiveDelay);
             // Consider a margin of one segment in order to avoid Precondition Failed errors (412), for example if audio and video are not correctly synchronized
             let bufferTime = liveDelay - segmentDuration;
+
+            // Store initial buffer settings
+            initialBufferSettings = {
+                'streaming': {
+                    'liveDelay': settings.get().streaming.liveDelay,
+                    'stableBufferTime': settings.get().streaming.stableBufferTime,
+                    'bufferTimeAtTopQuality': settings.get().streaming.bufferTimeAtTopQuality,
+                    'bufferTimeAtTopQualityLongForm': settings.get().streaming.bufferTimeAtTopQualityLongForm
+                }
+            };
+
             settings.update({
                 'streaming': {
                     'liveDelay': liveDelay,
@@ -741,9 +759,9 @@ function MssParser(config) {
                 timestampOffset = prevManifest.timestampOffset;
             } else {
                 for (i = 0; i < adaptations.length; i++) {
-                    if (adaptations[i].contentType === 'audio' || adaptations[i].contentType === 'video') {
+                    if (adaptations[i].contentType === constants.AUDIO || adaptations[i].contentType === constants.VIDEO) {
                         segments = adaptations[i].SegmentTemplate.SegmentTimeline.S_asArray;
-                        startTime = segments[0].t / adaptations[i].SegmentTemplate.timescale;
+                        startTime = segments[0].t;
                         if (timestampOffset === undefined) {
                             timestampOffset = startTime;
                         }
@@ -754,18 +772,18 @@ function MssParser(config) {
                     }
                 }
             }
-            // Patch segment templates timestamps and determine period start time (since audio/video should not be aligned to 0)
             if (timestampOffset > 0) {
+                // Patch segment templates timestamps and determine period start time (since audio/video should not be aligned to 0)
                 manifest.timestampOffset = timestampOffset;
                 for (i = 0; i < adaptations.length; i++) {
                     segments = adaptations[i].SegmentTemplate.SegmentTimeline.S_asArray;
                     for (j = 0; j < segments.length; j++) {
                         if (!segments[j].tManifest) {
-                            segments[j].tManifest = segments[j].t;
+                            segments[j].tManifest = segments[j].t.toString();
                         }
-                        segments[j].t -= (timestampOffset * adaptations[i].SegmentTemplate.timescale);
+                        segments[j].t -= timestampOffset;
                     }
-                    if (adaptations[i].contentType === 'audio' || adaptations[i].contentType === 'video') {
+                    if (adaptations[i].contentType === constants.AUDIO || adaptations[i].contentType === constants.VIDEO) {
                         period.start = Math.max(segments[0].t, period.start);
                         adaptations[i].SegmentTemplate.presentationTimeOffset = period.start;
                     }
@@ -830,10 +848,18 @@ function MssParser(config) {
         return manifest;
     }
 
+    function reset() {
+        // Restore initial buffer settings
+        if (initialBufferSettings) {
+            settings.update(initialBufferSettings);
+        }
+    }
+
     instance = {
         parse: internalParse,
         getMatchers: getMatchers,
-        getIron: getIron
+        getIron: getIron,
+        reset: reset
     };
 
     setup();

@@ -34,8 +34,7 @@ import FactoryMaker from '../../core/FactoryMaker';
 import ThumbnailTrackInfo from '../vo/ThumbnailTrackInfo';
 import URLUtils from '../../streaming/utils/URLUtils';
 import { replaceIDForTemplate, getTimeBasedSegment } from '../../dash/utils/SegmentsUtils';
-
-import SegmentBaseLoader from '../../dash/SegmentBaseLoader';
+import Events from '../../core/events/Events';
 import BoxParser from '../../streaming/utils/BoxParser';
 import XHRLoader from '../../streaming/net/XHRLoader';
 import DashHandler from '../../dash/DashHandler';
@@ -45,14 +44,14 @@ export const THUMBNAILS_SCHEME_ID_URIS = ['http://dashif.org/thumbnail_tile',
 
 function ThumbnailTracks(config) {
     const context = this.context;
-
     const adapter = config.adapter;
     const baseURLController = config.baseURLController;
-    const stream = config.stream;
+    const streamInfo = config.streamInfo;
     const timelineConverter = config.timelineConverter;
-    const dashMetrics = config.dashMetrics;
-    const mediaPlayerModel = config.mediaPlayerModel;
-    const errHandler = config.errHandler;
+    const debug = config.debug;
+    const eventBus = config.eventBus;
+    const events = config.events;
+    const dashConstants = config.dashConstants;
 
     const urlUtils = URLUtils(context).getInstance();
 
@@ -61,22 +60,24 @@ function ThumbnailTracks(config) {
         indexHandler,
         currentTrackIndex,
         mediaInfo,
-        loader, segmentBaseLoader, boxParser;
+        loader,
+        boxParser;
 
     function initialize() {
         reset();
         loader = XHRLoader(context).create({});
         boxParser = BoxParser(context).getInstance();
-        segmentBaseLoader = SegmentBaseLoader(context).getInstance();
-        segmentBaseLoader.setConfig({
-            baseURLController: baseURLController,
-            dashMetrics: dashMetrics,
-            mediaPlayerModel: mediaPlayerModel,
-            errHandler: errHandler
-        });
 
-        indexHandler = DashHandler(context).create({timelineConverter: timelineConverter,
-                                baseURLController: baseURLController});
+        indexHandler = DashHandler(context).create({
+            streamInfo: streamInfo,
+            timelineConverter: timelineConverter,
+            baseURLController: baseURLController,
+            debug: debug,
+            eventBus: eventBus,
+            events: events,
+            dashConstants: dashConstants,
+            urlUtils: urlUtils
+        });
 
         // initialize controllers
         indexHandler.initialize(adapter ? adapter.getIsDynamic() : false);
@@ -118,12 +119,7 @@ function ThumbnailTracks(config) {
     }
 
     function addTracks() {
-        if (!stream || !adapter) {
-            return;
-        }
-
-        const streamInfo = stream.getStreamInfo();
-        if (!streamInfo) {
+        if (!streamInfo || !adapter) {
             return;
         }
 
@@ -176,50 +172,56 @@ function ThumbnailTracks(config) {
         }
 
         if (useSegmentBase) {
-            segmentBaseLoader.loadSegments(representation, Constants.IMAGE, representation.indexRange, {}, function (segments, representation) {
-                var cache = [];
-                segments = normalizeSegments(segments, representation);
-                track.segmentDuration = segments[0].duration; //assume all segments have the same duration
-                track.readThumbnail = function (time, callback) {
+            eventBus.trigger(Events.SEGMENTBASE_SEGMENTSLIST_REQUEST_NEEDED, {
+                streamId: streamInfo.id,
+                mediaType: Constants.IMAGE,
+                mimeType: mediaInfo.mimeType,
+                representation: representation,
+                callback: function (streamId, mediaType, segments, representation) {
+                    let cache = [];
+                    segments = normalizeSegments(segments, representation);
+                    track.segmentDuration = segments[0].duration; //assume all segments have the same duration
+                    track.readThumbnail = function (time, callback) {
 
-                    let cached = null;
-                    cache.some(el => {
-                        if (el.start <= time && el.end > time) {
-                            cached = el.url;
-                            return true;
-                        }
-                    });
-                    if (cached) {
-                        callback(cached);
-                    } else {
-                        segments.some((ss) => {
-                            if (ss.mediaStartTime <= time && ss.mediaStartTime + ss.duration > time) {
-                                const baseURL = baseURLController.resolve(representation.path);
-                                loader.load({
-                                    method: 'get',
-                                    url: baseURL.url,
-                                    request: {
-                                        range: ss.mediaRange,
-                                        responseType: 'arraybuffer'
-                                    },
-                                    onload: function (e) {
-                                        let info = boxParser.getSamplesInfo(e.target.response);
-                                        let blob = new Blob( [ e.target.response.slice(info.sampleList[0].offset, info.sampleList[0].offset + info.sampleList[0].size) ], { type: 'image/jpeg' } );
-                                        let imageUrl = window.URL.createObjectURL( blob );
-                                        cache.push({
-                                            start: ss.mediaStartTime,
-                                            end: ss.mediaStartTime + ss.duration,
-                                            url: imageUrl
-                                        });
-                                        if (callback)
-                                            callback(imageUrl);
-                                    }
-                                });
+                        let cached = null;
+                        cache.some(el => {
+                            if (el.start <= time && el.end > time) {
+                                cached = el.url;
                                 return true;
                             }
                         });
-                    }
-                };
+                        if (cached) {
+                            callback(cached);
+                        } else {
+                            segments.some((ss) => {
+                                if (ss.mediaStartTime <= time && ss.mediaStartTime + ss.duration > time) {
+                                    const baseURL = baseURLController.resolve(representation.path);
+                                    loader.load({
+                                        method: 'get',
+                                        url: baseURL.url,
+                                        request: {
+                                            range: ss.mediaRange,
+                                            responseType: 'arraybuffer'
+                                        },
+                                        onload: function (e) {
+                                            let info = boxParser.getSamplesInfo(e.target.response);
+                                            let blob = new Blob( [ e.target.response.slice(info.sampleList[0].offset, info.sampleList[0].offset + info.sampleList[0].size) ], { type: 'image/jpeg' } );
+                                            let imageUrl = window.URL.createObjectURL( blob );
+                                            cache.push({
+                                                start: ss.mediaStartTime,
+                                                end: ss.mediaStartTime + ss.duration,
+                                                url: imageUrl
+                                            });
+                                            if (callback)
+                                                callback(imageUrl);
+                                        }
+                                    });
+                                    return true;
+                                }
+                            });
+                        }
+                    };
+                }
             });
         } else {
             track.startNumber = representation.startNumber;

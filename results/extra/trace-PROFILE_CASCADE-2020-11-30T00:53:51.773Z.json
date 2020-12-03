@@ -1,0 +1,3752 @@
+[
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.053,
+      "currentAverageThroughput": 6738.777777777777
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 6738.777777777777
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.777,
+      "currentAverageThroughput": 6738.777777777777
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.927,
+      "currentAverageThroughput": 6926.666666666667
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 6926.666666666667
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.777,
+      "currentAverageThroughput": 6926.666666666667
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 7444.1
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.726,
+      "currentAverageThroughput": 7444.1
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.896,
+      "currentAverageThroughput": 7444.1
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 6876.818181818182
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.961,
+      "currentAverageThroughput": 6876.818181818182
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 6724.75
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.842,
+      "currentAverageThroughput": 6724.75
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.001,
+      "currentAverageThroughput": 7146.846153846154
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.827,
+      "currentAverageThroughput": 7146.846153846154
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.956,
+      "currentAverageThroughput": 7146.846153846154
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 6968.071428571428
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.793,
+      "currentAverageThroughput": 6968.071428571428
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.985,
+      "currentAverageThroughput": 7020
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.776,
+      "currentAverageThroughput": 7020
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.802,
+      "currentAverageThroughput": 7020
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 7009.3
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 7009.3
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.777,
+      "currentAverageThroughput": 7009.3
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.727,
+      "currentAverageThroughput": 7433.5
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.983,
+      "currentAverageThroughput": 7433.5
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 7226.181818181818
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.939,
+      "currentAverageThroughput": 7226.181818181818
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.027,
+      "currentAverageThroughput": 7018.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 7018.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.803,
+      "currentAverageThroughput": 7018.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.827,
+      "currentAverageThroughput": 7429.833333333333
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.824,
+      "currentAverageThroughput": 7429.833333333333
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.947,
+      "currentAverageThroughput": 8643.714285714286
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.85,
+      "currentAverageThroughput": 8643.714285714286
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.803,
+      "currentAverageThroughput": 8643.714285714286
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.851,
+      "currentAverageThroughput": 8578.125
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.818,
+      "currentAverageThroughput": 8578.125
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.927,
+      "currentAverageThroughput": 9004.666666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 9004.666666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.777,
+      "currentAverageThroughput": 9004.666666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 9842.666666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.909,
+      "currentAverageThroughput": 9842.666666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.994,
+      "currentAverageThroughput": 9602.3
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.889,
+      "currentAverageThroughput": 9602.3
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.024,
+      "currentAverageThroughput": 9572.555555555555
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.851,
+      "currentAverageThroughput": 9572.555555555555
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.003,
+      "currentAverageThroughput": 9572.555555555555
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.047,
+      "currentAverageThroughput": 8952.5
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.828,
+      "currentAverageThroughput": 8952.5
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.921,
+      "currentAverageThroughput": 8952.5
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.853,
+      "currentAverageThroughput": 8249.545454545454
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.827,
+      "currentAverageThroughput": 8249.545454545454
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.924,
+      "currentAverageThroughput": 7005.857142857143
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.902,
+      "currentAverageThroughput": 7005.857142857143
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.043,
+      "currentAverageThroughput": 6858.75
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 6858.75
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.835,
+      "currentAverageThroughput": 6858.75
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.955,
+      "currentAverageThroughput": 6982.555555555556
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.727,
+      "currentAverageThroughput": 6982.555555555556
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.905,
+      "currentAverageThroughput": 6982.555555555556
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 6406.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.824,
+      "currentAverageThroughput": 6406.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.889,
+      "currentAverageThroughput": 6406.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.895,
+      "currentAverageThroughput": 4172.777777777777
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.923,
+      "currentAverageThroughput": 4172.777777777777
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.827,
+      "currentAverageThroughput": 2835.4285714285716
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.948,
+      "currentAverageThroughput": 2835.4285714285716
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.975,
+      "currentAverageThroughput": 3207.25
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.989,
+      "currentAverageThroughput": 3207.25
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.045,
+      "currentAverageThroughput": 3277.8888888888887
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.851,
+      "currentAverageThroughput": 3277.8888888888887
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.855,
+      "currentAverageThroughput": 3277.8888888888887
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.927,
+      "currentAverageThroughput": 3072.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.853,
+      "currentAverageThroughput": 3072.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.964,
+      "currentAverageThroughput": 3072.2
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 3260.181818181818
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.866,
+      "currentAverageThroughput": 3260.181818181818
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.914,
+      "currentAverageThroughput": 3260.181818181818
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.932,
+      "currentAverageThroughput": 3089.9166666666665
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 1.026,
+      "currentAverageThroughput": 3543.769230769231
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.853,
+      "currentAverageThroughput": 3543.769230769231
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.853,
+      "currentAverageThroughput": 3543.769230769231
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.939,
+      "currentAverageThroughput": 4487.285714285715
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.828,
+      "currentAverageThroughput": 4487.285714285715
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.802,
+      "currentAverageThroughput": 4487.285714285715
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.85,
+      "currentAverageThroughput": 4267.266666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.828,
+      "currentAverageThroughput": 4267.266666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.941,
+      "currentAverageThroughput": 4081.8333333333335
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.777,
+      "currentAverageThroughput": 4081.8333333333335
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.833,
+      "currentAverageThroughput": 4081.8333333333335
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 4706.2307692307695
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.823,
+      "currentAverageThroughput": 4706.2307692307695
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.942,
+      "currentAverageThroughput": 4455.214285714285
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.727,
+      "currentAverageThroughput": 4455.214285714285
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.803,
+      "currentAverageThroughput": 4455.214285714285
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 4708.533333333334
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.827,
+      "currentAverageThroughput": 4708.533333333334
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.951,
+      "currentAverageThroughput": 5174.066666666667
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.726,
+      "currentAverageThroughput": 5174.066666666667
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.803,
+      "currentAverageThroughput": 5174.066666666667
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.828,
+      "currentAverageThroughput": 6010.142857142857
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.828,
+      "currentAverageThroughput": 6010.142857142857
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.934,
+      "currentAverageThroughput": 9570.75
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.849,
+      "currentAverageThroughput": 9570.75
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.802,
+      "currentAverageThroughput": 9570.75
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.85,
+      "currentAverageThroughput": 9287.8
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.93,
+      "currentAverageThroughput": 9287.8
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.927,
+      "currentAverageThroughput": 9710
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.878,
+      "currentAverageThroughput": 9710
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 1.019,
+      "currentAverageThroughput": 10379.166666666666
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.853,
+      "currentAverageThroughput": 10379.166666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.939,
+      "currentAverageThroughput": 10379.166666666666
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 1.011,
+      "currentAverageThroughput": 10063
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.871,
+      "currentAverageThroughput": 10063
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.994,
+      "currentAverageThroughput": 10063
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.851,
+      "currentAverageThroughput": 10286.42857142857
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.933,
+      "currentAverageThroughput": 10286.42857142857
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 1.004,
+      "currentAverageThroughput": 10048.8
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.824,
+      "currentAverageThroughput": 10048.8
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.981,
+      "currentAverageThroughput": 10048.8
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 9118.833333333334
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.761,
+      "currentAverageThroughput": 9118.833333333334
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.989,
+      "currentAverageThroughput": 9536
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.777,
+      "currentAverageThroughput": 9536
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.937,
+      "currentAverageThroughput": 9536
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.852,
+      "currentAverageThroughput": 8495.5
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.855,
+      "currentAverageThroughput": 8495.5
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.984,
+      "currentAverageThroughput": 6440.428571428572
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.726,
+      "currentAverageThroughput": 6440.428571428572
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.932,
+      "currentAverageThroughput": 6440.428571428572
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.85,
+      "currentAverageThroughput": 5448.428571428572
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.848,
+      "currentAverageThroughput": 5448.428571428572
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.978,
+      "currentAverageThroughput": 1210.25
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.847,
+      "currentAverageThroughput": 1210.25
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.602,
+      "currentAverageThroughput": 1210.25
+    },
+    {
+      "currentLatency": 0.96,
+      "currentBuffer": 0.352,
+      "currentAverageThroughput": 1210.25
+    },
+    {
+      "currentLatency": 0.961,
+      "currentBuffer": 0.352,
+      "currentAverageThroughput": 1210.25
+    },
+    {
+      "currentLatency": 1.055,
+      "currentBuffer": 0.011,
+      "currentAverageThroughput": 1210.25
+    },
+    {
+      "currentLatency": 1.259,
+      "currentBuffer": 0.011,
+      "currentAverageThroughput": 1210.25
+    },
+    {
+      "currentLatency": 1.259,
+      "currentBuffer": 0.914,
+      "currentAverageThroughput": 1210
+    },
+    {
+      "currentLatency": 1.202,
+      "currentBuffer": 0.806,
+      "currentAverageThroughput": 1210
+    },
+    {
+      "currentLatency": 1.154,
+      "currentBuffer": 0.486,
+      "currentAverageThroughput": 1210
+    },
+    {
+      "currentLatency": 1.117,
+      "currentBuffer": 0.585,
+      "currentAverageThroughput": 1194.75
+    },
+    {
+      "currentLatency": 1.086,
+      "currentBuffer": 0.391,
+      "currentAverageThroughput": 1194.75
+    },
+    {
+      "currentLatency": 1.064,
+      "currentBuffer": 0.391,
+      "currentAverageThroughput": 1194.75
+    },
+    {
+      "currentLatency": 1.103,
+      "currentBuffer": 0.524,
+      "currentAverageThroughput": 1164
+    },
+    {
+      "currentLatency": 1.084,
+      "currentBuffer": 0.807,
+      "currentAverageThroughput": 1127.25
+    },
+    {
+      "currentLatency": 1.06,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 1127.25
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.311,
+      "currentAverageThroughput": 1127.25
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.608,
+      "currentAverageThroughput": 1127.25
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.508,
+      "currentAverageThroughput": 1127.25
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.259,
+      "currentAverageThroughput": 1127.25
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.508,
+      "currentAverageThroughput": 1052.6
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.909,
+      "currentAverageThroughput": 970
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.758,
+      "currentAverageThroughput": 970
+    },
+    {
+      "currentLatency": 1.041,
+      "currentBuffer": 0.509,
+      "currentAverageThroughput": 970
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.709,
+      "currentAverageThroughput": 970
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.508,
+      "currentAverageThroughput": 970
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.508,
+      "currentAverageThroughput": 970
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.624,
+      "currentAverageThroughput": 902.8
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.508,
+      "currentAverageThroughput": 902.8
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.259,
+      "currentAverageThroughput": 902.8
+    },
+    {
+      "currentLatency": 1.069,
+      "currentBuffer": 0.025,
+      "currentAverageThroughput": 902.8
+    },
+    {
+      "currentLatency": 1.1,
+      "currentBuffer": 0.869,
+      "currentAverageThroughput": 786.25
+    },
+    {
+      "currentLatency": 1.076,
+      "currentBuffer": 0.828,
+      "currentAverageThroughput": 786.25
+    },
+    {
+      "currentLatency": 1.057,
+      "currentBuffer": 0.549,
+      "currentAverageThroughput": 786.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.277,
+      "currentAverageThroughput": 786.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 805.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 805.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.278,
+      "currentAverageThroughput": 805.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.412,
+      "currentAverageThroughput": 805.25
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.777,
+      "currentAverageThroughput": 805.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 805.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 805.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.713,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.526,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.278,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.513,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.955,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.662,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.523,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.778,
+      "currentAverageThroughput": 813
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 813
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.463,
+      "currentAverageThroughput": 813
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.611,
+      "currentAverageThroughput": 821.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 821.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.277,
+      "currentAverageThroughput": 821.5
+    },
+    {
+      "currentLatency": 1.074,
+      "currentBuffer": 0.029,
+      "currentAverageThroughput": 821.5
+    },
+    {
+      "currentLatency": 1.073,
+      "currentBuffer": 0.876,
+      "currentAverageThroughput": 779
+    },
+    {
+      "currentLatency": 1.053,
+      "currentBuffer": 0.801,
+      "currentAverageThroughput": 779
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 779
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 779
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 779
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.365,
+      "currentAverageThroughput": 779
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 779
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.515,
+      "currentAverageThroughput": 769
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.78,
+      "currentAverageThroughput": 769
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 769
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.315,
+      "currentAverageThroughput": 769
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.736,
+      "currentAverageThroughput": 768.5
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.465,
+      "currentAverageThroughput": 768.5
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 768.5
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 769.5
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.904,
+      "currentAverageThroughput": 776.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.765,
+      "currentAverageThroughput": 776.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 776.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.772,
+      "currentAverageThroughput": 782
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 782
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 782
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.613,
+      "currentAverageThroughput": 765.5
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 765.5
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 765.5
+    },
+    {
+      "currentLatency": 1.076,
+      "currentBuffer": 0.032,
+      "currentAverageThroughput": 765.5
+    },
+    {
+      "currentLatency": 1.127,
+      "currentBuffer": 0.901,
+      "currentAverageThroughput": 784
+    },
+    {
+      "currentLatency": 1.101,
+      "currentBuffer": 0.726,
+      "currentAverageThroughput": 784
+    },
+    {
+      "currentLatency": 1.077,
+      "currentBuffer": 0.572,
+      "currentAverageThroughput": 784
+    },
+    {
+      "currentLatency": 1.057,
+      "currentBuffer": 0.296,
+      "currentAverageThroughput": 784
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 784
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.461,
+      "currentAverageThroughput": 784
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.273,
+      "currentAverageThroughput": 784
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 782
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.761,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.754,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.276,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 813.5
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.357,
+      "currentAverageThroughput": 813.5
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.275,
+      "currentAverageThroughput": 813.5
+    },
+    {
+      "currentLatency": 1.121,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 795
+    },
+    {
+      "currentLatency": 1.11,
+      "currentBuffer": 0.855,
+      "currentAverageThroughput": 800.75
+    },
+    {
+      "currentLatency": 1.082,
+      "currentBuffer": 0.568,
+      "currentAverageThroughput": 800.75
+    },
+    {
+      "currentLatency": 1.061,
+      "currentBuffer": 0.568,
+      "currentAverageThroughput": 800.75
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.665,
+      "currentAverageThroughput": 790.75
+    },
+    {
+      "currentLatency": 1.041,
+      "currentBuffer": 0.457,
+      "currentAverageThroughput": 790.75
+    },
+    {
+      "currentLatency": 1.041,
+      "currentBuffer": 0.273,
+      "currentAverageThroughput": 790.75
+    },
+    {
+      "currentLatency": 1.068,
+      "currentBuffer": 0.024,
+      "currentAverageThroughput": 777
+    },
+    {
+      "currentLatency": 1.073,
+      "currentBuffer": 0.867,
+      "currentAverageThroughput": 784.5
+    },
+    {
+      "currentLatency": 1.058,
+      "currentBuffer": 0.789,
+      "currentAverageThroughput": 784.5
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.533,
+      "currentAverageThroughput": 784.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.267,
+      "currentAverageThroughput": 784.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 784.5
+    },
+    {
+      "currentLatency": 1.034,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 784.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.267,
+      "currentAverageThroughput": 784.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.894,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.767,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.517,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.301,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.652,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.267,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.452,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.268,
+      "currentAverageThroughput": 773.5
+    },
+    {
+      "currentLatency": 1.095,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.084,
+      "currentBuffer": 0.808,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.063,
+      "currentBuffer": 0.565,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.565,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.678,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.545,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.294,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.861,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.794,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.773,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.294,
+      "currentAverageThroughput": 772.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.937,
+      "currentAverageThroughput": 780.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.792,
+      "currentAverageThroughput": 780.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 780.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 780.5
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.762,
+      "currentAverageThroughput": 787.75
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 787.75
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.293,
+      "currentAverageThroughput": 787.75
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 787.75
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 787.75
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.295,
+      "currentAverageThroughput": 787.75
+    },
+    {
+      "currentLatency": 1.084,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 804.75
+    },
+    {
+      "currentLatency": 1.067,
+      "currentBuffer": 0.807,
+      "currentAverageThroughput": 804.75
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.515,
+      "currentAverageThroughput": 804.75
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.515,
+      "currentAverageThroughput": 804.75
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.665,
+      "currentAverageThroughput": 804.75
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.526,
+      "currentAverageThroughput": 804.75
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 804.75
+    },
+    {
+      "currentLatency": 1.061,
+      "currentBuffer": 0.532,
+      "currentAverageThroughput": 801.5
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.889,
+      "currentAverageThroughput": 795
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.614,
+      "currentAverageThroughput": 795
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.53,
+      "currentAverageThroughput": 795
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.734,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.53,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.414,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.28,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.931,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.714,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.53,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.313,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.762,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.514,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.28,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.096,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.314,
+      "currentAverageThroughput": 715.6
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.708,
+      "currentAverageThroughput": 715.6
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.464,
+      "currentAverageThroughput": 715.6
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.279,
+      "currentAverageThroughput": 715.6
+    },
+    {
+      "currentLatency": 1.074,
+      "currentBuffer": 0.03,
+      "currentAverageThroughput": 715.6
+    },
+    {
+      "currentLatency": 1.164,
+      "currentBuffer": 0.53,
+      "currentAverageThroughput": 715.6
+    },
+    {
+      "currentLatency": 1.129,
+      "currentBuffer": 0.376,
+      "currentAverageThroughput": 715.6
+    },
+    {
+      "currentLatency": 1.097,
+      "currentBuffer": 0.465,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.073,
+      "currentBuffer": 0.312,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.064,
+      "currentBuffer": 0.02,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.263,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.215,
+      "currentBuffer": 0.411,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.164,
+      "currentBuffer": 0.654,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.127,
+      "currentBuffer": 0.352,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.094,
+      "currentBuffer": 0.06,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.198,
+      "currentBuffer": 0.525,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.162,
+      "currentBuffer": 0.786,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.122,
+      "currentBuffer": 0.567,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.093,
+      "currentBuffer": 0.28,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.079,
+      "currentBuffer": 0.034,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.279,
+      "currentBuffer": 0.034,
+      "currentAverageThroughput": 627.6
+    },
+    {
+      "currentLatency": 1.354,
+      "currentBuffer": 0.424,
+      "currentAverageThroughput": 549.8
+    },
+    {
+      "currentLatency": 1.284,
+      "currentBuffer": 0.717,
+      "currentAverageThroughput": 398.75
+    },
+    {
+      "currentLatency": 1.222,
+      "currentBuffer": 0.453,
+      "currentAverageThroughput": 398.75
+    },
+    {
+      "currentLatency": 1.17,
+      "currentBuffer": 0.137,
+      "currentAverageThroughput": 398.75
+    },
+    {
+      "currentLatency": 1.279,
+      "currentBuffer": 0.035,
+      "currentAverageThroughput": 398.75
+    },
+    {
+      "currentLatency": 1.401,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 398.75
+    },
+    {
+      "currentLatency": 1.333,
+      "currentBuffer": 0.219,
+      "currentAverageThroughput": 398.75
+    },
+    {
+      "currentLatency": 1.266,
+      "currentBuffer": 0.434,
+      "currentAverageThroughput": 396
+    },
+    {
+      "currentLatency": 1.206,
+      "currentBuffer": 0.386,
+      "currentAverageThroughput": 396
+    },
+    {
+      "currentLatency": 1.273,
+      "currentBuffer": 0.028,
+      "currentAverageThroughput": 396
+    },
+    {
+      "currentLatency": 1.475,
+      "currentBuffer": 0.028,
+      "currentAverageThroughput": 396
+    },
+    {
+      "currentLatency": 1.667,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 396
+    },
+    {
+      "currentLatency": 1.575,
+      "currentBuffer": 0.511,
+      "currentAverageThroughput": 396
+    },
+    {
+      "currentLatency": 1.486,
+      "currentBuffer": 0.65,
+      "currentAverageThroughput": 389
+    },
+    {
+      "currentLatency": 1.401,
+      "currentBuffer": 0.173,
+      "currentAverageThroughput": 389
+    },
+    {
+      "currentLatency": 1.479,
+      "currentBuffer": 0.032,
+      "currentAverageThroughput": 389
+    },
+    {
+      "currentLatency": 1.679,
+      "currentBuffer": 0.032,
+      "currentAverageThroughput": 389
+    },
+    {
+      "currentLatency": 1.749,
+      "currentBuffer": 0.418,
+      "currentAverageThroughput": 389
+    },
+    {
+      "currentLatency": 1.653,
+      "currentBuffer": 0.654,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.557,
+      "currentBuffer": 0.549,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.487,
+      "currentBuffer": 0.041,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.686,
+      "currentBuffer": 0.041,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.788,
+      "currentBuffer": 0.541,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.734,
+      "currentBuffer": 0.781,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.638,
+      "currentBuffer": 0.41,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.546,
+      "currentBuffer": 0.117,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.665,
+      "currentBuffer": 0.02,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.601,
+      "currentBuffer": 0.394,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.509,
+      "currentBuffer": 0.48,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.422,
+      "currentBuffer": 0.48,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.476,
+      "currentBuffer": 0.031,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.676,
+      "currentBuffer": 0.031,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.596,
+      "currentBuffer": 0.417,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.505,
+      "currentBuffer": 0.652,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.42,
+      "currentBuffer": 0.373,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.471,
+      "currentBuffer": 0.026,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.672,
+      "currentBuffer": 0.026,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.673,
+      "currentBuffer": 0.486,
+      "currentAverageThroughput": 391.5
+    },
+    {
+      "currentLatency": 1.579,
+      "currentBuffer": 0.646,
+      "currentAverageThroughput": 388.25
+    },
+    {
+      "currentLatency": 1.489,
+      "currentBuffer": 0.405,
+      "currentAverageThroughput": 388.25
+    },
+    {
+      "currentLatency": 1.468,
+      "currentBuffer": 0.022,
+      "currentAverageThroughput": 388.25
+    },
+    {
+      "currentLatency": 1.668,
+      "currentBuffer": 0.022,
+      "currentAverageThroughput": 388.25
+    },
+    {
+      "currentLatency": 1.709,
+      "currentBuffer": 0.414,
+      "currentAverageThroughput": 388.25
+    },
+    {
+      "currentLatency": 1.613,
+      "currentBuffer": 0.314,
+      "currentAverageThroughput": 388.25
+    },
+    {
+      "currentLatency": 1.522,
+      "currentBuffer": 0.43,
+      "currentAverageThroughput": 382.5
+    },
+    {
+      "currentLatency": 1.435,
+      "currentBuffer": 0.551,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.356,
+      "currentBuffer": 0.362,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.369,
+      "currentBuffer": 0.024,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.569,
+      "currentBuffer": 0.024,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.627,
+      "currentBuffer": 0.397,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.534,
+      "currentBuffer": 0.651,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.447,
+      "currentBuffer": 0.389,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.381,
+      "currentBuffer": 0.036,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.582,
+      "currentBuffer": 0.036,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.671,
+      "currentBuffer": 0.536,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.581,
+      "currentBuffer": 0.3,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.49,
+      "currentBuffer": 0.363,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.405,
+      "currentBuffer": 0.076,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.576,
+      "currentBuffer": 0.031,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.777,
+      "currentBuffer": 0.031,
+      "currentAverageThroughput": 386
+    },
+    {
+      "currentLatency": 1.693,
+      "currentBuffer": 0.364,
+      "currentAverageThroughput": 383.5
+    },
+    {
+      "currentLatency": 1.599,
+      "currentBuffer": 0.494,
+      "currentAverageThroughput": 383.5
+    },
+    {
+      "currentLatency": 1.508,
+      "currentBuffer": 0.398,
+      "currentAverageThroughput": 383.5
+    },
+    {
+      "currentLatency": 1.579,
+      "currentBuffer": 0.035,
+      "currentAverageThroughput": 383.5
+    },
+    {
+      "currentLatency": 1.782,
+      "currentBuffer": 0.035,
+      "currentAverageThroughput": 383.5
+    },
+    {
+      "currentLatency": 1.815,
+      "currentBuffer": 0.385,
+      "currentAverageThroughput": 383.5
+    },
+    {
+      "currentLatency": 1.717,
+      "currentBuffer": 0.385,
+      "currentAverageThroughput": 383.5
+    },
+    {
+      "currentLatency": 1.621,
+      "currentBuffer": 0.442,
+      "currentAverageThroughput": 382.75
+    },
+    {
+      "currentLatency": 1.529,
+      "currentBuffer": 0.54,
+      "currentAverageThroughput": 382.75
+    },
+    {
+      "currentLatency": 1.44,
+      "currentBuffer": 0.28,
+      "currentAverageThroughput": 382.75
+    },
+    {
+      "currentLatency": 1.359,
+      "currentBuffer": 0.428,
+      "currentAverageThroughput": 390
+    },
+    {
+      "currentLatency": 1.288,
+      "currentBuffer": 0.428,
+      "currentAverageThroughput": 390
+    },
+    {
+      "currentLatency": 1.227,
+      "currentBuffer": 0.46,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.176,
+      "currentBuffer": 0.65,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.136,
+      "currentBuffer": 0.405,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.098,
+      "currentBuffer": 0.164,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.179,
+      "currentBuffer": 0.034,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.38,
+      "currentBuffer": 0.034,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.394,
+      "currentBuffer": 0.534,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.322,
+      "currentBuffer": 0.626,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.257,
+      "currentBuffer": 0.501,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.2,
+      "currentBuffer": 0.171,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.373,
+      "currentBuffer": 0.028,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.555,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.521,
+      "currentBuffer": 0.292,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.434,
+      "currentBuffer": 0.528,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.355,
+      "currentBuffer": 0.294,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.389,
+      "currentBuffer": 0.044,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.589,
+      "currentBuffer": 0.044,
+      "currentAverageThroughput": 390.75
+    },
+    {
+      "currentLatency": 1.62,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 394
+    },
+    {
+      "currentLatency": 1.539,
+      "currentBuffer": 0.705,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.451,
+      "currentBuffer": 0.323,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.387,
+      "currentBuffer": 0.041,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.588,
+      "currentBuffer": 0.041,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.762,
+      "currentBuffer": 0.541,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.677,
+      "currentBuffer": 0.391,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.582,
+      "currentBuffer": 0.525,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.492,
+      "currentBuffer": 0.163,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.592,
+      "currentBuffer": 0.045,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.791,
+      "currentBuffer": 0.045,
+      "currentAverageThroughput": 393
+    },
+    {
+      "currentLatency": 1.744,
+      "currentBuffer": 0.342,
+      "currentAverageThroughput": 392.75
+    },
+    {
+      "currentLatency": 1.649,
+      "currentBuffer": 0.577,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.556,
+      "currentBuffer": 0.373,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.468,
+      "currentBuffer": 0.601,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.386,
+      "currentBuffer": 0.249,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.484,
+      "currentBuffer": 0.04,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.686,
+      "currentBuffer": 0.04,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.663,
+      "currentBuffer": 0.36,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.569,
+      "currentBuffer": 0.718,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.481,
+      "currentBuffer": 0.396,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.483,
+      "currentBuffer": 0.038,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.683,
+      "currentBuffer": 0.038,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.688,
+      "currentBuffer": 0.36,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.594,
+      "currentBuffer": 0.576,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.503,
+      "currentBuffer": 0.347,
+      "currentAverageThroughput": 395.5
+    },
+    {
+      "currentLatency": 1.417,
+      "currentBuffer": 0.558,
+      "currentAverageThroughput": 396.75
+    },
+    {
+      "currentLatency": 1.34,
+      "currentBuffer": 0.211,
+      "currentAverageThroughput": 396.75
+    },
+    {
+      "currentLatency": 1.375,
+      "currentBuffer": 0.03,
+      "currentAverageThroughput": 396.75
+    },
+    {
+      "currentLatency": 1.576,
+      "currentBuffer": 0.03,
+      "currentAverageThroughput": 396.75
+    },
+    {
+      "currentLatency": 1.58,
+      "currentBuffer": 0.35,
+      "currentAverageThroughput": 400.75
+    },
+    {
+      "currentLatency": 1.488,
+      "currentBuffer": 0.689,
+      "currentAverageThroughput": 402.25
+    },
+    {
+      "currentLatency": 1.404,
+      "currentBuffer": 0.346,
+      "currentAverageThroughput": 402.25
+    },
+    {
+      "currentLatency": 1.389,
+      "currentBuffer": 0.043,
+      "currentAverageThroughput": 402.25
+    },
+    {
+      "currentLatency": 1.588,
+      "currentBuffer": 0.043,
+      "currentAverageThroughput": 402.25
+    },
+    {
+      "currentLatency": 1.686,
+      "currentBuffer": 0.456,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.598,
+      "currentBuffer": 0.78,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.506,
+      "currentBuffer": 0.378,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.42,
+      "currentBuffer": 0.136,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.537,
+      "currentBuffer": 0.545,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.453,
+      "currentBuffer": 0.844,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.371,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.295,
+      "currentBuffer": 0.187,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.33,
+      "currentBuffer": 0.534,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.308,
+      "currentBuffer": 0.779,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.241,
+      "currentBuffer": 0.511,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.188,
+      "currentBuffer": 0.511,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.143,
+      "currentBuffer": 0.571,
+      "currentAverageThroughput": 398
+    },
+    {
+      "currentLatency": 1.108,
+      "currentBuffer": 0.876,
+      "currentAverageThroughput": 467.2
+    },
+    {
+      "currentLatency": 1.08,
+      "currentBuffer": 0.603,
+      "currentAverageThroughput": 467.2
+    },
+    {
+      "currentLatency": 1.059,
+      "currentBuffer": 0.326,
+      "currentAverageThroughput": 467.2
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.611,
+      "currentAverageThroughput": 546.6
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.561,
+      "currentAverageThroughput": 546.6
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.311,
+      "currentAverageThroughput": 546.6
+    },
+    {
+      "currentLatency": 1.075,
+      "currentBuffer": 0.029,
+      "currentAverageThroughput": 546.6
+    },
+    {
+      "currentLatency": 1.081,
+      "currentBuffer": 0.874,
+      "currentAverageThroughput": 620.8
+    },
+    {
+      "currentLatency": 1.059,
+      "currentBuffer": 0.812,
+      "currentAverageThroughput": 620.8
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.534,
+      "currentAverageThroughput": 620.8
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.267,
+      "currentAverageThroughput": 620.8
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.517,
+      "currentAverageThroughput": 760.75
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.351,
+      "currentAverageThroughput": 760.75
+    },
+    {
+      "currentLatency": 1.034,
+      "currentBuffer": 0.267,
+      "currentAverageThroughput": 760.75
+    },
+    {
+      "currentLatency": 1.079,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 757.25
+    },
+    {
+      "currentLatency": 1.072,
+      "currentBuffer": 0.812,
+      "currentAverageThroughput": 757.25
+    },
+    {
+      "currentLatency": 1.053,
+      "currentBuffer": 0.537,
+      "currentAverageThroughput": 757.25
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.537,
+      "currentAverageThroughput": 757.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.687,
+      "currentAverageThroughput": 757.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.454,
+      "currentAverageThroughput": 757.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.27,
+      "currentAverageThroughput": 757.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 767.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.896,
+      "currentAverageThroughput": 767.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.754,
+      "currentAverageThroughput": 767.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 767.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.77,
+      "currentAverageThroughput": 791.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 791.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 791.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.652,
+      "currentAverageThroughput": 791.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 791.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.269,
+      "currentAverageThroughput": 791.25
+    },
+    {
+      "currentLatency": 1.067,
+      "currentBuffer": 0.534,
+      "currentAverageThroughput": 818.5
+    },
+    {
+      "currentLatency": 1.051,
+      "currentBuffer": 0.846,
+      "currentAverageThroughput": 818.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.666,
+      "currentAverageThroughput": 818.5
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.541,
+      "currentAverageThroughput": 818.5
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.324,
+      "currentAverageThroughput": 818.5
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.54,
+      "currentAverageThroughput": 811.75
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.308,
+      "currentAverageThroughput": 811.75
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.142,
+      "currentAverageThroughput": 811.75
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.931,
+      "currentAverageThroughput": 802.75
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.758,
+      "currentAverageThroughput": 802.75
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.54,
+      "currentAverageThroughput": 802.75
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.54,
+      "currentAverageThroughput": 802.75
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.771,
+      "currentAverageThroughput": 802.75
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.54,
+      "currentAverageThroughput": 802.75
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.29,
+      "currentAverageThroughput": 802.75
+    },
+    {
+      "currentLatency": 1.043,
+      "currentBuffer": 0.54,
+      "currentAverageThroughput": 789.25
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.358,
+      "currentAverageThroughput": 789.25
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.289,
+      "currentAverageThroughput": 789.25
+    },
+    {
+      "currentLatency": 1.102,
+      "currentBuffer": 0.526,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.092,
+      "currentBuffer": 0.833,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.068,
+      "currentBuffer": 0.554,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.051,
+      "currentBuffer": 0.554,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.668,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.462,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.532,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.907,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.765,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.527,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.717,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.549,
+      "currentAverageThroughput": 781.25
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.781,
+      "currentAverageThroughput": 775
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.532,
+      "currentAverageThroughput": 775
+    },
+    {
+      "currentLatency": 1.035,
+      "currentBuffer": 0.412,
+      "currentAverageThroughput": 775
+    },
+    {
+      "currentLatency": 1.034,
+      "currentBuffer": 0.648,
+      "currentAverageThroughput": 788.75
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.513,
+      "currentAverageThroughput": 788.75
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.264,
+      "currentAverageThroughput": 788.75
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.515,
+      "currentAverageThroughput": 792.75
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.949,
+      "currentAverageThroughput": 801.25
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.765,
+      "currentAverageThroughput": 801.25
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.511,
+      "currentAverageThroughput": 801.25
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.749,
+      "currentAverageThroughput": 801.25
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.516,
+      "currentAverageThroughput": 801.25
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.516,
+      "currentAverageThroughput": 801.25
+    },
+    {
+      "currentLatency": 1.034,
+      "currentBuffer": 0.671,
+      "currentAverageThroughput": 811
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.516,
+      "currentAverageThroughput": 811
+    },
+    {
+      "currentLatency": 1.033,
+      "currentBuffer": 0.265,
+      "currentAverageThroughput": 811
+    },
+    {
+      "currentLatency": 1.062,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 811
+    },
+    {
+      "currentLatency": 1.058,
+      "currentBuffer": 0.877,
+      "currentAverageThroughput": 811
+    },
+    {
+      "currentLatency": 1.042,
+      "currentBuffer": 0.805,
+      "currentAverageThroughput": 811
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 811
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.712,
+      "currentAverageThroughput": 803.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 803.75
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.304,
+      "currentAverageThroughput": 803.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.285,
+      "currentAverageThroughput": 803.75
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.918,
+      "currentAverageThroughput": 786.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.782,
+      "currentAverageThroughput": 786.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 786.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 786.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.718,
+      "currentAverageThroughput": 786.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.401,
+      "currentAverageThroughput": 786.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.285,
+      "currentAverageThroughput": 786.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.532,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.94,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.704,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.785,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.504,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.504,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.654,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.281,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.536,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.875,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.603,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.717,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.403,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.285,
+      "currentAverageThroughput": 790
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.94,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.704,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 811.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.781,
+      "currentAverageThroughput": 810.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.504,
+      "currentAverageThroughput": 810.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.282,
+      "currentAverageThroughput": 810.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.534,
+      "currentAverageThroughput": 798.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.304,
+      "currentAverageThroughput": 798.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.285,
+      "currentAverageThroughput": 798.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.454,
+      "currentAverageThroughput": 787.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.784,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.533,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.533,
+      "currentAverageThroughput": 792.5
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.745,
+      "currentAverageThroughput": 773.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.404,
+      "currentAverageThroughput": 773.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.283,
+      "currentAverageThroughput": 773.25
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.286,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.09,
+      "currentBuffer": 0.536,
+      "currentAverageThroughput": 792
+    },
+    {
+      "currentLatency": 1.072,
+      "currentBuffer": 0.829,
+      "currentAverageThroughput": 783.75
+    },
+    {
+      "currentLatency": 1.052,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 783.75
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.305,
+      "currentAverageThroughput": 783.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.653,
+      "currentAverageThroughput": 783.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.536,
+      "currentAverageThroughput": 783.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.284,
+      "currentAverageThroughput": 783.75
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.532,
+      "currentAverageThroughput": 871.8
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.927,
+      "currentAverageThroughput": 871.8
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.604,
+      "currentAverageThroughput": 871.8
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 871.8
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.752,
+      "currentAverageThroughput": 958.2
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.534,
+      "currentAverageThroughput": 958.2
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.534,
+      "currentAverageThroughput": 958.2
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.735,
+      "currentAverageThroughput": 1044
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.535,
+      "currentAverageThroughput": 1044
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.285,
+      "currentAverageThroughput": 1044
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.536,
+      "currentAverageThroughput": 1185
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.354,
+      "currentAverageThroughput": 1185
+    },
+    {
+      "currentLatency": 1.038,
+      "currentBuffer": 0.284,
+      "currentAverageThroughput": 1185
+    },
+    {
+      "currentLatency": 1.052,
+      "currentBuffer": 0.526,
+      "currentAverageThroughput": 1185
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.768,
+      "currentAverageThroughput": 1180.25
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 1180.25
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 1180.25
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.653,
+      "currentAverageThroughput": 1147
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.46,
+      "currentAverageThroughput": 1147
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.294,
+      "currentAverageThroughput": 1147
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 1123.5
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.94,
+      "currentAverageThroughput": 1123.5
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.76,
+      "currentAverageThroughput": 1123.5
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.542,
+      "currentAverageThroughput": 1123.5
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.794,
+      "currentAverageThroughput": 1114.75
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 1114.75
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 1114.75
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.709,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.291,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.51,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.044,
+      "currentBuffer": 0.51,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.045,
+      "currentBuffer": 0.291,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.057,
+      "currentBuffer": 0.923,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.049,
+      "currentBuffer": 0.784,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.602,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.519,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.269,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.517,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.402,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.269,
+      "currentAverageThroughput": 1099
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.94,
+      "currentAverageThroughput": 1090.25
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.702,
+      "currentAverageThroughput": 1090.25
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 1090.25
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.802,
+      "currentAverageThroughput": 1084.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.767,
+      "currentAverageThroughput": 1084.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.502,
+      "currentAverageThroughput": 1084.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.727,
+      "currentAverageThroughput": 1077
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 1077
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.52,
+      "currentAverageThroughput": 1077
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.615,
+      "currentAverageThroughput": 1088.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.452,
+      "currentAverageThroughput": 1088.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.27,
+      "currentAverageThroughput": 1088.5
+    },
+    {
+      "currentLatency": 1.07,
+      "currentBuffer": 0.537,
+      "currentAverageThroughput": 1088.5
+    },
+    {
+      "currentLatency": 1.069,
+      "currentBuffer": 0.944,
+      "currentAverageThroughput": 1123
+    },
+    {
+      "currentLatency": 1.053,
+      "currentBuffer": 0.782,
+      "currentAverageThroughput": 1123
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.545,
+      "currentAverageThroughput": 1123
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.796,
+      "currentAverageThroughput": 1123
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.546,
+      "currentAverageThroughput": 1123
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.546,
+      "currentAverageThroughput": 1123
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.702,
+      "currentAverageThroughput": 1133.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.546,
+      "currentAverageThroughput": 1133.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.297,
+      "currentAverageThroughput": 1133.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.513,
+      "currentAverageThroughput": 1104.75
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.843,
+      "currentAverageThroughput": 1104.75
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.663,
+      "currentAverageThroughput": 1104.75
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.546,
+      "currentAverageThroughput": 1104.75
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.737,
+      "currentAverageThroughput": 1094
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.547,
+      "currentAverageThroughput": 1094
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.463,
+      "currentAverageThroughput": 1094
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.612,
+      "currentAverageThroughput": 1080.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.545,
+      "currentAverageThroughput": 1080.25
+    },
+    {
+      "currentLatency": 1.048,
+      "currentBuffer": 0.297,
+      "currentAverageThroughput": 1080.25
+    },
+    {
+      "currentLatency": 1.064,
+      "currentBuffer": 0.531,
+      "currentAverageThroughput": 1096.25
+    },
+    {
+      "currentLatency": 1.055,
+      "currentBuffer": 0.914,
+      "currentAverageThroughput": 1106.5
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.786,
+      "currentAverageThroughput": 1106.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.515,
+      "currentAverageThroughput": 1106.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.702,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.666,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.502,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.268,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.037,
+      "currentBuffer": 0.514,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.802,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.769,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.517,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.769,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.519,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.519,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.733,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.402,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.269,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.519,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.302,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.036,
+      "currentBuffer": 0.202,
+      "currentAverageThroughput": 1076.5
+    },
+    {
+      "currentLatency": 1.05,
+      "currentBuffer": 0.938,
+      "currentAverageThroughput": 1086.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.793,
+      "currentAverageThroughput": 1086.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.544,
+      "currentAverageThroughput": 1086.25
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.828,
+      "currentAverageThroughput": 1110
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.661,
+      "currentAverageThroughput": 1110
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.543,
+      "currentAverageThroughput": 1110
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.723,
+      "currentAverageThroughput": 1110
+    },
+    {
+      "currentLatency": 1.047,
+      "currentBuffer": 0.542,
+      "currentAverageThroughput": 1110
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.462,
+      "currentAverageThroughput": 1110
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.612,
+      "currentAverageThroughput": 1136.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.542,
+      "currentAverageThroughput": 1136.25
+    },
+    {
+      "currentLatency": 1.046,
+      "currentBuffer": 0.294,
+      "currentAverageThroughput": 1136.25
+    },
+    {
+      "currentLatency": 1.075,
+      "currentBuffer": 0.028,
+      "currentAverageThroughput": 1136.25
+    },
+    {
+      "currentLatency": 1.087,
+      "currentBuffer": 0.926,
+      "currentAverageThroughput": 1099.75
+    },
+    {
+      "currentLatency": 1.066,
+      "currentBuffer": 0.815,
+      "currentAverageThroughput": 1099.75
+    },
+    {
+      "currentLatency": 1.05,
+      "currentBuffer": 0.538,
+      "currentAverageThroughput": 1099.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.705,
+      "currentAverageThroughput": 1099.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 1099.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 1099.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.659,
+      "currentAverageThroughput": 1066.25
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.505,
+      "currentAverageThroughput": 1066.25
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.271,
+      "currentAverageThroughput": 1066.25
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 1056.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.806,
+      "currentAverageThroughput": 1056.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.771,
+      "currentAverageThroughput": 1056.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.518,
+      "currentAverageThroughput": 1056.75
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.771,
+      "currentAverageThroughput": 1038.25
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 1038.25
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 1038.25
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.725,
+      "currentAverageThroughput": 1060
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.405,
+      "currentAverageThroughput": 1060
+    },
+    {
+      "currentLatency": 1.041,
+      "currentBuffer": 0.268,
+      "currentAverageThroughput": 1060
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.521,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.271,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.065,
+      "currentBuffer": 0.942,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.052,
+      "currentBuffer": 0.807,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.538,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.81,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.655,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.538,
+      "currentAverageThroughput": 1080
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.706,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.536,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.455,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.287,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.974,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.754,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.04,
+      "currentBuffer": 0.536,
+      "currentAverageThroughput": 1094.25
+    },
+    {
+      "currentLatency": 1.039,
+      "currentBuffer": 0.805,
+      "currentAverageThroughput": 1102.75
+    }
+  ]

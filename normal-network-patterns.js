@@ -135,5 +135,20 @@ const PROFILE_FAST_JITTERS = [
   },
 ];
 
+const PROFILE_CONSTANT = [
+    {
+      speed: 500,
+      duration: 10,
+    },
+    {
+        speed: 500,
+        duration: 10,
+    },
+    {
+        speed: 500,
+        duration: 10,
+    },
+  ];
+
 // Profiles for the PROFILE_NORMAL ffmpeg transcode
-module.exports = { PROFILE_CASCADE, PROFILE_INTRA_CASCADE, PROFILE_SPIKE, PROFILE_SLOW_JITTERS, PROFILE_FAST_JITTERS };
+module.exports = { PROFILE_CASCADE, PROFILE_INTRA_CASCADE, PROFILE_SPIKE, PROFILE_SLOW_JITTERS, PROFILE_FAST_JITTERS, PROFILE_CONSTANT };

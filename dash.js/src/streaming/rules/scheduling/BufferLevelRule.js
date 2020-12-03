@@ -44,37 +44,36 @@ function BufferLevelRule(config) {
     function setup() {
     }
 
-    function execute(streamProcessor, videoTrackPresent) {
-        if (!streamProcessor) {
+    function execute(type, representationInfo, hasVideoTrack) {
+        if (!type || !representationInfo) {
             return true;
         }
-        const bufferLevel = dashMetrics.getCurrentBufferLevel(streamProcessor.getType(), true);
-        return bufferLevel < getBufferTarget(streamProcessor, videoTrackPresent);
+        const bufferLevel = dashMetrics.getCurrentBufferLevel(type);
+        return bufferLevel < getBufferTarget(type, representationInfo, hasVideoTrack);
     }
 
-    function getBufferTarget(streamProcessor, videoTrackPresent) {
+    function getBufferTarget(type, representationInfo, hasVideoTrack) {
         let bufferTarget = NaN;
 
-        if (!streamProcessor) {
+        if (!type || !representationInfo) {
             return bufferTarget;
         }
-        const type = streamProcessor.getType();
-        const representationInfo = streamProcessor.getRepresentationInfo();
+
         if (type === Constants.FRAGMENTED_TEXT) {
             if (textController.isTextEnabled()) {
                 if (isNaN(representationInfo.fragmentDuration)) { //fragmentDuration of representationInfo is not defined,
                     // call metrics function to have data in the latest scheduling info...
                     // if no metric, returns 0. In this case, rule will return false.
-                    const bufferInfo = dashMetrics.getLatestBufferInfoVO(Constants.FRAGMENTED_TEXT, true, MetricsConstants.SCHEDULING_INFO);
-                    bufferTarget = bufferInfo ? bufferInfo.duration : 0;
+                    const schedulingInfo = dashMetrics.getCurrentSchedulingInfo(MetricsConstants.SCHEDULING_INFO);
+                    bufferTarget = schedulingInfo ? schedulingInfo.duration : 0;
                 } else {
                     bufferTarget = representationInfo.fragmentDuration;
                 }
             } else { // text is disabled, rule will return false
                 bufferTarget = 0;
             }
-        } else if (type === Constants.AUDIO && videoTrackPresent) {
-            const videoBufferLevel = dashMetrics.getCurrentBufferLevel(Constants.VIDEO, true);
+        }  else if (type === Constants.AUDIO && hasVideoTrack) {
+            const videoBufferLevel = dashMetrics.getCurrentBufferLevel(Constants.VIDEO);
             if (isNaN(representationInfo.fragmentDuration)) {
                 bufferTarget = videoBufferLevel;
             } else {
